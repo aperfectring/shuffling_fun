@@ -91,6 +91,7 @@ print("Maximum number of shuffles to get any card from one position to another: 
 
 if len(sys.argv) != 3:
     print("Usage: " + sys.argv[0] + " <start position> <end position>")
+    print("Note: positions are 0-based")
     exit(1)
 
 start_pos = sys.argv[1]
